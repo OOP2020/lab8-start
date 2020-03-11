@@ -1,5 +1,4 @@
 package auction;
-import jdk.jfr.StackTrace;
 import org.junit.*;
 import static org.junit.Assert.*;
 
@@ -14,7 +13,7 @@ public class AuctionTest {
 		auction = new Auction("Java in Action");
 		// set the auction variant to test
 		auction.setAuctionType(3);
-		// for testing. Remove this.
+		// This is for testing. Remove this.
 		System.out.println("Auction type is " + auction.getAuctionType());
 	}
 
